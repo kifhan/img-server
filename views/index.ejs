@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>
+        ImgServer
+    </title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+</head>
+
+<body>
+    <h1>Images</h1>
+    <a href="/imgupload">Go to upload form</a>
+    <ul>
+        <% for(var i=0; i<images.length; i++){ %>
+            <li>
+                <img src="/img/<%= images[i] %>" width="300px">
+            </li>
+            <% } %>
+    </ul>
+</body>
+
+</html>
