@@ -1,4 +1,7 @@
 # Image Server Example
+
+Web server for storing and providing images.
+
 This server made with Node.js, Mongodb, Express and Multer.
 
 start with
