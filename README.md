@@ -1,8 +1,6 @@
 # Image Server Example
 
-Web server for storing and providing images.
-
-Note: It stores images on Mongodb
+Web server for storing and providing images. Stores images as Base64 String on Mongodb
 
 This server made with Node.js, Mongodb, Express and Multer.
 
